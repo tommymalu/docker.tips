@@ -35,7 +35,7 @@ jobs:
          run: |
            cd ansible/
            pip install ansible
-           echo ${{ secrets.ANSIBLE_VAULT }} > vault_pass.txt
-           export ANSIBLE_VAULT_PASSWORD_FILE=vault_pass.txt
+#           echo ${{ secrets.ANSIBLE_VAULT }} > vault_pass.txt
+#           export ANSIBLE_VAULT_PASSWORD_FILE=vault_pass.txt
            ansible-vault decrypt aws.pem
            ansible-playbook -i hosts deploy.yml
