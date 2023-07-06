@@ -35,5 +35,4 @@ jobs:
          run: |
            cd ansible/
            pip install ansible
-           ansible-vault decrypt aws.pem
            ansible-playbook -i hosts deploy.yml
