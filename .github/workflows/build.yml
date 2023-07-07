@@ -34,6 +34,4 @@ jobs:
        - name: deploy to aws
          run: |
            cd ansible/
-           ls
-           pip install ansible
-           ssh -i "tokyo_2023.pem" ec2-user@43.207.30.10
+           echo "current directory is `pwd`"
