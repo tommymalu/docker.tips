@@ -38,3 +38,4 @@ jobs:
            echo "current user is `whoami`"
            echo "list current directory `ls`"
            echo `cat ~/.ssh/known_hosts`
+           ansible-playbook -i hosts deploy.yml
