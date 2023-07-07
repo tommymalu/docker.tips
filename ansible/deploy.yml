@@ -12,7 +12,7 @@
       ignore_errors: yes
 
     - name: update docker image
-      shell: docker image pull xiaopeng163/dockertips:latest
+      shell: docker image pull dockerchun/dockertips:latest
 
     - name: create new container
-      shell: docker container run --rm -d -p 80:80 --name web xiaopeng163/dockertips:latest
+      shell: docker container run --rm -d -p 80:80 --name web dockerchun/dockertips:latest
