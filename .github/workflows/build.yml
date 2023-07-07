@@ -37,5 +37,6 @@ jobs:
            echo "current directory is `pwd`"
            echo "current user is `whoami`"
            echo "list current directory `ls`"
+           echo "list key file `ls -l tokyo_2023.pem`"
            echo `cat ~/.ssh/known_hosts`
            ansible-playbook -i hosts deploy.yml
