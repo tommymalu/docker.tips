@@ -34,6 +34,7 @@ jobs:
        - name: deploy to aws
          run: |
            cd ansible/
+           pip install ansible
            echo "current directory is `pwd`"
            echo "current user is `whoami`"
            echo "list current directory `ls`"
