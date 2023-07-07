@@ -35,6 +35,6 @@ jobs:
          run: |
            cd ansible/
            pip install ansible
-           ping 43.207.30.10
+           #ping 43.207.30.10
            ssh -i tokyo_2023.pem ec2-user@43.207.30.10
            #ansible-playbook -i hosts deploy.yml
