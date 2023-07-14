@@ -14,15 +14,11 @@ Headline e.g. Personal Notebook
    :width: 250
    :alt: wechat-tips
 
-.. image:: _static/wechat/wechat1.jpg
-   :width: 200
-   :alt: wechat-tips
-
 .. toctree::
    :maxdepth: 2
    :caption: 目录:
 
-   template-1
+   template-level-1
    docker-install
    about
 

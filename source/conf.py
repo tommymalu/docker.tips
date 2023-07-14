@@ -54,7 +54,7 @@ exclude_patterns = []
 #html_theme = 'sphinx_rtd_theme'
 # html_theme = 'press'
 html_theme = "furo"
-html_title = 'html_title'
+html_title = 'Chun Docs'
 html_theme_options = {}
 html_theme_options["announcement"] = (
     "IMPORTANT NOTIFICATION "

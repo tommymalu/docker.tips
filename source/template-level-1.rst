@@ -1,7 +1,7 @@
-1. template-1
+1. template-level-1
 ======================
 
 .. toctree::
     :maxdepth: 1
     
-    template-1/template-2
+    template-level-1/template-level-2
