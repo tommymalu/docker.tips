@@ -18,9 +18,9 @@ from datetime import date
 
 # -- Project information -----------------------------------------------------
 
-project = 'Docker Tips'
-copyright = str(date.today().year) + ", Peng Xiao. All rights reserved."
-author = 'Peng Xiao'
+project = 'Chun Docs'
+copyright = str(date.today().year) + ", someone All rights reserved."
+author = 'Chun'
 
 # The full version, including alpha/beta/rc tags
 release = '1.0'
@@ -54,11 +54,10 @@ exclude_patterns = []
 #html_theme = 'sphinx_rtd_theme'
 # html_theme = 'press'
 html_theme = "furo"
-html_title = 'Docker Tips'
+html_title = 'html_title'
 html_theme_options = {}
 html_theme_options["announcement"] = (
-    "🙏🙏🙏 如果大家发现文章中的错误，欢迎提PR或者issue指正 "
-    "<a href='https://github.com/xiaopeng163/docker.tips/issues/new'>文档源码地址</a>."
+    "IMPORTANT NOTIFICATION "
 )
 #html_theme = 'sphinx_book_theme'
 # Add any paths that contain custom static files (such as style sheets) here,
