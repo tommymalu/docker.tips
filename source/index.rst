@@ -3,20 +3,12 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Docker Tips (Docker笔记)
+Headline e.g. Personal Notebook
 =======================================
 
-.. warning::
+.. Headsup::
 
-   请大家支持正版。大家的支持才是我录制和更新课程的动力
-
-.. note::
-
-   此站的永久域名是 https://www.docker.tips 欢迎收藏
-   
-.. note::
-
-   本人同时推出课程《Certified Kubernetes Administrator (CKA) 考试完全指南（2022版）》。课程购买地址 https://www.udemy.com/course/k8s-chinese/?referralCode=4D8B7AFDBFAF9A8E4F81
+   headsup aaa请大家支持正版。大家的支持才是我录制和更新课程的动力
 
 .. note::
 
@@ -30,39 +22,11 @@ Docker Tips (Docker笔记)
    :width: 200
    :alt: wechat-tips
 
-.. image:: _static/wechat/wechat2.jpg
-   :width: 200
-   :alt: wechat-tips
-
-.. image:: _static/wechat/wechat3.jpg
-   :width: 200
-   :alt: wechat-tips
-
-.. image:: _static/wechat/wechat4.jpg
-   :width: 200
-   :alt: wechat-tips
-
-.. image:: _static/wechat/wechat5.jpg
-   :width: 200
-   :alt: wechat-tips
-
 .. toctree::
    :maxdepth: 2
    :caption: 目录:
 
    docker-install
-   container-quickstart
-   docker-image
-   dockerfile-guide
-   docker-volume
-   single-host-network
-   docker-compose
-   docker-swarm
-   docker-podman
-   docker-arch
-   docker-cicd
-   docker-security
-   docker-blog
    about
 
 
